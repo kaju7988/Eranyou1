@@ -6,7 +6,8 @@ services:
     ports:
       - "80:80"
     environment:
-      - BOT_TOKEN=${BOT_TOKEN}
+      - 8236755186:AAEUKQUpK1pIEwULCpALW2viy3QQgn53f2Y=${8236755186:AAEUKQUpK1pIEwULCpALW2viy3QQgn53f2Y}
     volumes:
       - ./users.json:/var/www/html/users.json
+
       - ./error.log:/var/www/html/error.log
