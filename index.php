@@ -1,6 +1,6 @@
 <?php
 // Bot configuration
-define('BOT_TOKEN', getenv('BOT_TOKEN') ?: 'Place_Your_Token_Here');
+define('8236755186:AAEUKQUpK1pIEwULCpALW2viy3QQgn53f2Y', getenv('8236755186:AAEUKQUpK1pIEwULCpALW2viy3QQgn53f2Y') ?: 'Place_Your_Token_Here');
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 define('USERS_FILE', 'users.json');
 define('ERROR_LOG', 'error.log');
@@ -184,4 +184,5 @@ if ($update) {
 } else {
     http_response_code(403);
     echo "Access denied";
+
 }
